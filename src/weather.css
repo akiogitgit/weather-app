@@ -1,8 +1,9 @@
 .item-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+  display: grid;
+  gap: 24px;
   justify-content: center;
+  align-items: flex-start;
+  grid-template-columns: repeat(auto-fill, minmax(400px, auto));
 }
 
 .item {
