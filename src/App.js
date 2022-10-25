@@ -6,7 +6,6 @@ import { data } from "./weather";
 function App() {
   return (
     <div>
-      {JSON.stringify(data[0])}
       <div className="item-wrapper">
         {data.map((v) => (
           <WeatherItem data={v} />
