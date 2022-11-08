@@ -1,4 +1,4 @@
-export const dateFormat = (time) => {
-  const date = new Date(time);
-  return date.toLocaleDateString().split("/").join("-");
-};
+export const dateFormat = time => {
+  const date = new Date(time * 1000)
+  return date.toLocaleDateString().split('/').join('-')
+}
