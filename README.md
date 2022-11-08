@@ -38,6 +38,6 @@ GitHubとパソコンを紐づけている
     - weather.css -- `weatherItemなどのスタイルを書いている`
   - utils -- `他プロジェクトでも使える純粋関数を置く`
     - dateFormat.js -- `ミリ秒の時間(など)を引数で、2020-10-28のような文字列を返す関数`
-    - generatePrefCodeColor.js -- `文字列から一意のグラデーションを返す関数(ここまでしなくていい)`
+    - generateColorByCityName.js -- `文字列から一意のグラデーションを返す関数(ここまでしなくていい)`
   - App.js -- `dev/weatherのdata配列を、mapで回した要素をWeatherItemに渡して表示する`
   - index.js -- `Appファイルを public/index.html の id="root" のDOMに置き換える`
